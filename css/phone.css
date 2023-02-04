@@ -1,0 +1,53 @@
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 428px;}
+    }
+
+@media screen and (max-width: 767px) {
+    .section-title3 {
+        text-align: center;
+    }
+
+    .header-link {
+        display: block;
+        text-align: center;
+    }
+
+    .soc-media {
+        text-align: center;
+        margin-top: 72px;
+    }
+
+    .subscribe-text {
+        margin-top: 72px;
+    }
+
+    .footer-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subscribe-text {
+        text-align: center;
+    }
+
+    .subscribe-wrap {
+        flex-wrap: wrap;
+    }
+
+    .portfolio>.container {
+        max-width: 396px;
+    }
+
+    .about-list {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+.team>.container {
+width: 294px;
+}
+}

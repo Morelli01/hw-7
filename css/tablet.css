@@ -1,0 +1,179 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    /* -----------------header---------------- */
+    .header {
+        display: flex;
+        gap: 40px;
+    }
+
+    .ht {
+        font-weight: 600;
+        font-size: var(--font-size);
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-item {
+        position: relative;
+    }
+
+    .ht.current {
+        color: #404bbf;
+    }
+
+    .ht.current::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -100%;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        display: block;
+        background-color: #404bbf;
+    }
+
+    .ht:hover,
+    .ht:focus {
+        color: #404bbf;
+    }
+
+    .contact {
+        display: flex;
+    }
+
+    .contact-link {
+        font-size: var(--font-size);
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--caption-color);
+        /* transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+        transition: color var(--transition);
+    }
+
+    .contact-link:hover,
+    .contact-link:focus {
+        color: #404bbf;
+    }
+
+    .contact-item:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .header-wrap {
+        display: none;
+    }
+
+    .header-menu-wrap {
+        display: none;
+    }
+
+    /* ----------hero------------- */
+    .main-section{
+        padding-top: 111px;
+        padding-bottom: 108px;
+        max-width: 768px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/herotb.png);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .main-section {
+            background-image: url(../images/herotb@2x.png);
+        }
+    }
+
+    .main-section-title1 {
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 48px;
+        max-width: 496px;
+    }
+
+    /* -------------benefits------------- */
+    .image-list {
+        gap: 24px;
+    }
+
+    .section-list{ display: flex;
+    flex-wrap: nowrap;
+    min-width: 767px;
+    }
+
+    .section-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    /* ------------command--------- */
+
+    .team-list {
+        gap: 24px;
+    }
+
+    .team-item {
+        max-width: 264px;
+        width: calc((100%-24px) / 2);
+    }
+
+    /* ----------customers------------- */
+    .customers-list {
+        column-gap: 24px;
+    }
+
+    .customers-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .subscribe-input {
+        width: 264px;
+    }
+
+/* -----------------footer---------------- */
+.ending>.container {
+    width: 600px;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-text {
+    margin-right: 24px;
+}
+
+.subscribe-footer {
+    margin-top: 72px;
+}
+}
+    /* --------portfolio------- */
+    .portfolio-list {
+        justify-content: center;
+    }
+
+    .about-list {
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+
+    .about-item {
+        width: calc((100% - 48px) / 2);
+    }
+
+    .modal {
+    }
+}
+
