@@ -5,7 +5,7 @@
 }
 
 @media screen and (max-width: 767px) {
-        .header>.container {
+    .header>.container {
                 display: flex;
                 min-width: -webkit-fill-available;
             }
