@@ -32,7 +32,7 @@
         content: "";
         position: absolute;
         left: 0;
-        bottom: -100%;
+        bottom: -53%;
         width: 100%;
         height: 4px;
         border-radius: 2px;
@@ -84,7 +84,7 @@
         max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../img/Dark-bg.png);
+            url(../img/dark-bg.png);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -92,7 +92,9 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .main-section {
-            background-image: url(../img/Dark-bgx2.png);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../img/dark-bgx2.png);;
         }
     }
 
@@ -104,7 +106,8 @@
 
     /* -------------benefits------------- */
     .section-list {
-        gap: 24px;
+        column-gap: 24px;
+        row-gap: 72px;
     }
 
     .section-item{
@@ -114,7 +117,8 @@
     /* ------------command--------- */
 
     .team-list {
-        gap: 24px;
+        row-gap: 64px;
+        column-gap: 24px;
     }
 
     .team-item {
@@ -133,6 +137,11 @@
 
     .subscribe-input {
         width: 264px;
+    }
+
+    .customer-link{
+        width: 168px;
+        height: 88px;
     }
 
     /* --------portfolio------- */
