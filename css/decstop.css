@@ -16,7 +16,7 @@
         max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/hero.png);
+            url(../img/hero\ image.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -24,7 +24,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .main-section {
-            background-image: url(../images/hero@2x.png);
+            background-image: url(../img/hero\ imagex2.png);
         }
     }
 

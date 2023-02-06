@@ -84,7 +84,7 @@
         max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/herotb.png);
+            url(../img/Dark-bg.png);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -92,7 +92,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .main-section {
-            background-image: url(../images/herotb@2x.png);
+            background-image: url(../img/Dark-bgx2.png);
         }
     }
 
@@ -100,7 +100,6 @@
         font-size: 56px;
         line-height: 1.07;
         margin-bottom: 48px;
-        max-width: 496px;
     }
 
     /* -------------benefits------------- */
