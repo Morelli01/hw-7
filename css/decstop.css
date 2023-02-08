@@ -8,6 +8,7 @@
     /* -----------------header---------------- */
     .contact {
         margin-left: auto;
+        column-gap: 40px;
     }
 
         .contact-item:not(:first-child) {
@@ -27,7 +28,7 @@
         max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../img/hero\ image.jpg);
+            url(../img/heroimage.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -37,7 +38,7 @@
         .main-section {
             max-width: 1440px;
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                        rgba(46, 47, 66, 0.7)), url(../img/hero\ imagex2.png);
+                        rgba(46, 47, 66, 0.7)), url(../img/heroimagex2.png);
         }
     }
 
@@ -135,6 +136,10 @@
 
     .customers-item {
         width: calc((100% - 120px) / 6);
+    }
+
+    .section-container>.container {
+        width: 100%;
     }
 
     /* ---------footer ----------*/
