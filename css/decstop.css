@@ -1,12 +1,19 @@
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1158px;
+            padding-left: 15px;
+                padding-right: 15px;
     }
 
     /* -----------------header---------------- */
     .contact {
         margin-left: auto;
     }
+
+        .contact-item:not(:first-child) {
+            
+        }
+
 .header {
 
     padding-top: 24px;
@@ -141,6 +148,10 @@
 
     .footer-media {
         margin-right: 80px;
+    }
+
+    .footer-link{
+    display: block;
     }
 
     /* --------portfolio------- */

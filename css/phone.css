@@ -1,6 +1,8 @@
 @media screen and (min-width: 480px) {
     .container {
         max-width: 428px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 
@@ -53,10 +55,6 @@
         align-items: center;
     }
 
-    .footer-link{
-        align-items: flex-start;
-    }
-
     .subscribe-text {
         text-align: center;
     }
@@ -73,6 +71,11 @@
         justify-content: center;
     }
 }
+
+        .footer-link {
+            display: flex;
+                justify-content: center;
+        }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .team>.container {

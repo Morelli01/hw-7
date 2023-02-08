@@ -4,6 +4,12 @@
     }
 
     /* -----------------header---------------- */
+
+    .header{
+        padding-bottom: 15.5px;
+            padding-top: 15.5px;
+    }
+
     .header-list {
         display: flex;
         gap: 40px;
@@ -32,7 +38,7 @@
         content: "";
         position: absolute;
         left: 0;
-        bottom: -53%;
+        bottom: -118%;
         width: 100%;
         height: 4px;
         border-radius: 2px;
@@ -63,10 +69,6 @@
     .contact-link:hover,
     .contact-link:focus {
         color: #404bbf;
-    }
-
-    .contact-item:not(:last-child) {
-        margin-right: 40px;
     }
 
     .header-wrap {
@@ -137,8 +139,8 @@
         width: 264px;
     }
 
-    .customer-link{
-        width: 168px;
+    .customers-link{
+        
         height: 88px;
     }
 
@@ -184,7 +186,14 @@
         margin-right: 24px;
     }
 
+    .footer-link{
+        display: block;
+    }
+
     .subscribe-footer {
         margin-top: 72px;
     }
 }
+        .section-container>.container {
+            width: 582px;
+        }
